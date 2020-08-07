@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="topbar_bg">#b6292d</color>
+    <color name="bottomtab_normal">#c8bca5</color>
+    <color name="bottomtab_press">#8b572a</color>
+    <color name="line">#c8bca5</color>
+    <!--car-->
+    <color name="car_protection">#23CC2A</color>
+    <color name="car_not_protection">#F44336</color>
+    <!--sensor-->
+    <color name="sensor_connected">#23CC2A</color>
+    <color name="sensor_not_connected">#F44336</color>
+    <color name="two_two" />
+    <color name="two_two1">#8DC34A</color>
+    <color name="two01">#CDDC39</color>
+    <color name="six1">#8D36F472</color>
+    <color name="six2">#78EEF436</color>
+    <color name="six4">#9859F436</color>
+</resources>

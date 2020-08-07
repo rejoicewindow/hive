@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rejoicewindow.hive">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- //震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 允许程序打开网络套接字 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 允许程序获取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 允许程序访问WiFi网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 允许程序读写手机状态和身份 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 允许程序访问CellID或WiFi热点来获取粗略的位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- mqtt -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <application
+        android:name=".Myapplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app"
+        android:label="@string/app_chinese_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.user.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".RegesterActivity"></activity>
+        <activity android:name=".SevenActivity" />
+        <activity android:name=".SixActivity" />
+        <activity android:name=".FiveActivity" />
+        <activity android:name=".FourActivity" />
+        <activity android:name=".ThreeActivity" />
+        <activity android:name=".TwoActivity" />
+        <activity android:name=".OneActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HiveActivity" />
+        <activity android:name=".MusicPlayerActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.user.NoActionBar" />
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <service
+            android:name=".MyMqttService"
+            android:enabled="true"
+            android:exported="true" /> <!-- <service -->
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
+    </application>
+
+</manifest>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">hive</string>
+    <string name="app_chinese_name">蜂箱报警器</string>
+    <string name="CarProtection">蜂箱保护开启中</string>
+    <string name="CarNoProtection">蜂箱保护已关闭</string>
+    <string name="UserName">姓名：</string>
+    <string name="UserSex">性别：</string>
+    <string name="UserEmail">邮箱：</string>
+    <string name="WelcomeUser">欢迎您！</string>
+    <string name="UserSettings">设置</string>
+
+    <string name="pref_ringtone_silent">silent</string>
+    <string name="SoundAlert">声音提醒</string>
+    <string name="SwitchOn">开</string>
+    <string name="SwitchOff">关</string>
+    <string name="CarSoundAlert">蜂箱异常时发出报警音</string>
+    <string name="ToastAlert">弹窗提醒</string>
+
+    <!--    GPS-->
+    <string name="GPSInfo">GPS数据丢失</string>
+    <!--    pressure-->
+    <string name="PressureInfo">压力传感器数据丢失</string>
+    <!--    gyro-->
+    <string name="GyroInfo">方向传感器数据丢失</string>
+    <!--    acceleration-->
+    <string name="AccelerationInfo">方向传感器数据丢失</string>
+
+    <string name="CoinStore">积分商城</string>
+    <string name="PartStore">零件商城</string>
+    <string name="CarNumber">蜂箱编号</string>
+    <string name="ModelInit">初始化模块</string>
+    <string name="app_alarm">手机APP提醒设置</string>
+    <string name="CarAlarm">蜂箱报警设置</string>
+    <string name="TempSound">临时响铃</string>
+    <string name="ManageCar">管理蜂箱</string>
+    <string name="VibrationAlert">手机震动提醒</string>
+
+
+    <string name="LblLogin">登录</string>
+    <string name="LblUserName">姓名（选填）</string>
+    <string name="LblUserNickname">昵称</string>
+    <string name="LblUserPhone">手机号</string>
+    <string name="LblUserEmail">邮箱</string>
+    <string name="LblPassword">密码</string>
+    <string name="LblLoginByUserName">用户名登录</string>
+    <string name="LblLoginByEmail">邮箱地址登录</string>
+    <string name="LbRememberMe">记住登录状态</string>
+    <string name="LblBtnLogin">登录</string>
+    <string name="LblBtnRegister">注册</string>
+    <string name="UserSexMan">男</string>
+    <string name="UserSexWoman">女</string>
+    <string name="LblHint">请输入</string>
+    <string name="LblBtnBack">返回</string>
+    <string name="title_oneFragment">蜂箱</string>
+    <string name="title_twoFragment">传感器</string>
+    <string name="title_thereFragment">设置</string>
+    <string name="CarBottomView">蜂箱保护模式</string>
+    <string name="BtnToken">获取Tokrn</string>
+    <string name="ShowToken">请选择你喜欢的token</string>
+    <string name="InputId">请输入获得的设备ID</string>
+    <string name="BtnBind">开始绑定</string>
+
+</resources>
